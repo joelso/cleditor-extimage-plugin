@@ -48,7 +48,7 @@
 		$text.val('').focus();
 
 		$(data.popup)
-			.children(":button")
+			.find(":button")
 			.unbind("click")
 			.bind("click", function(e) {
 				if($file.val()) { // proceed if any file was selected
